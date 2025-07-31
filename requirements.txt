@@ -1,0 +1,26 @@
+# Core dependencies for Live Tamil Dubbing Tool
+torch>=2.0.0
+torchaudio>=2.0.0
+
+# Audio/Video processing
+ffmpeg-python>=0.2.0
+pydub>=0.25.1
+
+# YouTube downloading
+yt-dlp>=2023.12.30
+
+# Speech recognition
+openai-whisper>=20231117
+
+# Translation
+deep-translator>=1.11.4
+
+# Text-to-speech
+edge-tts>=6.1.10
+
+# Async support
+asyncio-mqtt>=0.16.1
+
+# Optional: CUDA support (uncomment if using GPU)
+# torch[cuda]>=2.0.0
+# torchaudio[cuda]>=2.0.0
